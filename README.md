@@ -86,11 +86,11 @@ or
 ```./warning-shot```
 
 #### CODE REVIEWS GOLANG
-``
+
 https://github.com/golang/go/wiki/CodeReviewComments
 
 #### Set the build id using git´s SHA
-``
+
 You can get the short version of the sha1 of your latest commit by running the following git command from your repo:
 
 ```git rev-parse --short HEAD```
