@@ -13,7 +13,7 @@ func TestDefaultValuesWebServer(t *testing.T) {
 	}
 }
 
-func TestDefaultMySql(t *testing.T) {
+func TestDefaultValuesMySql(t *testing.T) {
 
 	cfg := GetConfig()
 
