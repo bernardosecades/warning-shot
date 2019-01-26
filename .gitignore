@@ -1,4 +1,12 @@
+
+# System files
 .idea/
+
 references.txt
+
+# Testing
 coverage/*
 !coverage/.gitkeep
+
+# Local files
+local.env
