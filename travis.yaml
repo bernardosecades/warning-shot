@@ -1,0 +1,21 @@
+sudo: required
+
+env:
+- IMAGE="bernardosecades/warning-shot"
+
+services:
+- docker
+
+before_install:
+- docker pull $IMAGE
+- docker build -t $IMAGE .
+- docker run -td --name warning_shot -p 3000:3000 $IMAGE
+
+script: docker exec -ti warning_shot bash -c 'make test'
+
+after_success:
+- docker login -u $DOCKER_USER -p $DOCKER_PASS
+- docker tag $IMAGE "${IMAGE}:${TRAVIS_COMMIT}"
+- docker tag $IMAGE "${IMAGE}:latest"
+- docker push "${IMAGE}:latest"
+- docker push "${IMAGE}:${TRAVIS_COMMIT}"
