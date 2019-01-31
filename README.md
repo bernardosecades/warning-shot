@@ -111,3 +111,12 @@ Html format:
 
 ```go test ./config -coverprofile coverage/cover.out```
 ```go tool cover -html=coverage/cover.out -o coverage/cover.html```
+
+#### DOCKER
+
+In order to work with docker container you must create first a custom network to link services:
+
+```
+$ docker network create dev-network
+$ docker-compose up -d 
+```
