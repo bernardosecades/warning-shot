@@ -1,7 +1,7 @@
 # Build command:
-# docker build -t moriorgames/warning-shot .
+# docker build -t bernardosecades/warning-shot .
 # Run command:
-# docker run -td --name warning_shot -p 3000:3000 moriorgames/warning-shot
+# docker run -td --name warning_shot -p 3000:3000 bernardosecades/warning-shot
 FROM        golang:1.11
 MAINTAINER  MoriorGames "moriorgames@gmail.com"
 
