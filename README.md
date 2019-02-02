@@ -1,9 +1,8 @@
 # Slack application: Warning Shot
 
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/bernardosecades/warning-shot/blob/master/LICENSE)
-[![Go Report Card](https://goreportcard.com/report/github.com/bernardosecades/warning-shot)](https://goreportcard.com/report/github.com/bernardosecades/warning-shot)
+[![Go Report Card](https://goreportcard.com/badge/github.com/bernardosecades/warning-shot)](https://goreportcard.com/report/github.com/bernardosecades/warning-shot)
 [![Help Contribute to Open Source](https://www.codetriage.com/bernardosecades/warning-shot/badges/users.svg)](https://www.codetriage.com/bernardosecades/warning-shot/badges)
-https://www.codetriage.com/bernardosecades/warning-shot/badges/users.svg
 
 TODO
 
